@@ -1,0 +1,72 @@
+[ 2015-07-10T09:05:25+08:00 ] 127.0.0.1 /order/admin.php/common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-10T13:59:18+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:00:00+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:00:02+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:00:17+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:01:49+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:02:26+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:02:42+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:03:36+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:06:10+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index/username/ruby97.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:10:48+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:OrderIndex
+
+[ 2015-07-10T14:11:53+08:00 ] 127.0.0.1 /order/admin.php/OrderIndex/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:OrderIndex
+

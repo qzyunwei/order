@@ -1,0 +1,720 @@
+[ 2015-07-08T15:06:00+08:00 ] 127.0.0.1 /order/admin.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Login
+
+[ 2015-07-08T15:06:10+08:00 ] 127.0.0.1 /order/admin.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-08T15:07:28+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:08:31+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:09:08+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:11:39+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:12:36+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:13:37+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:14:04+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:14:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:14:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:14:27+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:14:39+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:15:02+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:46:08+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T15:46:51+08:00 ] 127.0.0.1 /order/admin.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-08T15:46:55+08:00 ] 127.0.0.1 /order/admin.php/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-07-08T16:42:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9152599077206105
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:21+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:22+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2609934143256396
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:23+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.6464777642395347
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:23+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9099687037523836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:23+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7185241540428251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.1861073023173958
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5120183108374476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5674670829903334
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.4285573251545429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7880439043510705
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:24+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.48200373630970716
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.579964583972469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7402662900276482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.13555994513444602
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.33391080354340374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.3999950960278511
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:25+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9818169409409165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:26+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.1718074600212276
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:26+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.8007860376965255
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:27+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.13320856634527445
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:28+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.707593847764656
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:28+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7142581155057997
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:29+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.09794637397862971
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:29+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.16590631869621575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:30+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.08774799900129437
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:30+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9624503697268665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:30+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9637408978305757
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:46:30+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.31412389501929283
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:02+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:03+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:04+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:04+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:56:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:07+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:08+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:09+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:10+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:11+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T16:57:17+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:00:59+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:00+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5281193831469864
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:00+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.868249733466655
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5189074734225869
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.10754723171703517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.16010086005553603
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5463156551122665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.02099914406426251
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:01:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7098769519943744
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:45+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:47+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:47+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:47+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:48+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:48+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:09:48+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:13:51+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:13:52+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:13:52+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:37+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:41+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:42+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:42+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:43+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:44+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:45+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.57237430033274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.888132831081748
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.007190807489678264
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.8239673923235387
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.9890696683432907
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.968529696110636
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:23:46+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7078556835185736
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.8961511612869799
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:01+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.7554734055884182
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:16+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2380562296602875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:18+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.29203845653682947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:19+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5099911950528622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:20+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.006183302262797952
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:22+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2380562296602875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:23+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.29203845653682947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:24:23+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5099911950528622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:00+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.29203845653682947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:00+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2380562296602875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:00+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5099911950528622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:04+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5099911950528622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.29203845653682947
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:05+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2380562296602875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:09+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.2380562296602875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:25:10+08:00 ] 127.0.0.1 /order/admin.php/Common/verify/random/0.5099911950528622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:30+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:31+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:31+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:32+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:33+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:33+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:33+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:34+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:34+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
+[ 2015-07-08T17:35:34+08:00 ] 127.0.0.1 /order/admin.php/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Common
+
