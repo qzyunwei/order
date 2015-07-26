@@ -37,6 +37,47 @@ class MenuController extends Controller{
              $this->error('您好，请先登录！！！',U('/Index/index/'));
         }
     }
+    //菜单展示页面的删除
+    function delete($id){
+        header("Content-Type:text/html; charset=utf-8");
+        $del = M('Menu');
+        $result = $del->where('id='.$id)->delete();
+        if ($result !== false){
+            redirect(U('/Home/Menu/Index'),0);
+        }else{
+            //redirect(U('/Home/OrderIndex/Index'),5,'订单信息删除失败，请重新删除。。。');
+            redirect(U('/Home/Menu/Index'),3,'请重新删除。。。');
+        }
+    }
+
+    //菜单展示页面的编辑
+    function edit($id){
+        /*header("Content-Type:text/html; charset=utf-8");
+        $edit = M('Menu');
+
+        $edit_order = $edit->where('id ='.$id)->select();
+        $this->assign('edit_order',$edit_order);
+        $url=U('/Home/Menu/index');
+        redirect($url,0, '');*/
+    }
+
+    //菜单录入保存
+    function save(){
+        $order = M('Menu');
+
+        $Data['food_name'] = $_POST['food_name'];
+        $Data['food_price'] = $_POST['food_price'];
+        $Data['food_res'] = $_POST['food_res'];
+
+        if ($lastInsId = $order->add($Data)) {
+            $url=U('/Home/Menu/index/');
+            redirect($url,0, '录入成功...');
+        }else{
+             $this->error("菜单录入失败！");
+        }
+
+    }
+
 }
 
 ?>

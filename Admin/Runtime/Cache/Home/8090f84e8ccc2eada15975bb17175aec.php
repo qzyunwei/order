@@ -32,13 +32,6 @@
 
         <ul id="main-nav">
             <!-- 类型为nav-top-itrm current 表示选中时的样式 -->
-             <li> <a href="#" class="nav-top-item">菜单</a>
-              <ul>
-                <li><a href="/order/admin.php/Home/Controller/Menu/index">今日菜单</a></li>
-                <li><a href="#">菜单录入</a></li>
-              </ul>
-            </li>
-
             <li> <a  href="#" class="nav-top-item current">订单 Order</a>
               <ul>
                 <li><a class="current" href="#">当前订单</a></li>
@@ -46,6 +39,15 @@
                 <li><a href="#">开发课题</a></li> -->
               </ul>
             </li>
+
+             <li> <a href="#" class="nav-top-item">菜单 Menu</a>
+              <ul>
+                <li><a href="/order/admin.php/Home/menu/index">今日菜单</a></li>
+                <li><a href="#">菜单录入</a></li>
+              </ul>
+            </li>
+
+
 
             <!-- <li> <a href="#" class="nav-top-item">研究生 Student</a>
               <ul>
@@ -68,7 +70,7 @@
   </div>
   <!-- End #sidebar -->
 
-
+  in
 
 
   <div id="main-content">
@@ -163,6 +165,7 @@
                 <th>订餐</th>
                 <th>订餐餐厅</th>
                 <th>订餐人</th>
+                <th>订餐数量</th>
                 <th>添加时间</th>
                 <th>订餐价格</th>
                 <th>订餐支付</th>
@@ -175,9 +178,10 @@
             <tbody>
               <?php if(is_array($order_list)): $i = 0; $__LIST__ = $order_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 <td></td>
-                <td><?php echo ($vo["order_meal"]); ?> </td>
+                <td><?php echo ($vo["order_food"]); ?> </td>
                 <td><?php echo ($vo["order_restaurant"]); ?></a></td>
                 <td><?php echo ($vo["order_name"]); ?></td>
+                <td><?php echo ($vo["order_num"]); ?></td>
                 <td><?php echo ($vo["order_time"]); ?> </td>
                 <td><?php echo ($vo["order_price"]); ?> </td>
                 <td><?php echo ($vo["pay_price"]); ?> </td>
@@ -279,39 +283,35 @@
       <div class="content-box-header">
         <h3>内容框 左</h3>
       </div>
-      <!-- End .content-box-header -->
+
       <div class="content-box-content">
         <div class="tab-content default-tab">
           <h4>测试</h4>
           <p> 备用 </p>
         </div>
-        <!-- End #tab3 -->
       </div>
-      <!-- End .content-box-content -->
     </div>
-    <!-- End .content-box -->
+
     <div class="content-box column-right closed-box">
       <div class="content-box-header">
-        <!-- Add the class "closed" to the Content box header to have it closed by default -->
         <h3>内容框 右</h3>
       </div>
-      <!-- End .content-box-header -->
       <div class="content-box-content">
         <div class="tab-content default-tab">
           <h4>哈哈</h4>
           <p> 备用 </p>
         </div>
-        <!-- End #tab3 -->
+
       </div>
-      <!-- End .content-box-content -->
+
     </div>
-    <!-- End .content-box -->
+
     <div class="clear"></div>
 
 
     <div id="footer"> <small>
       <!-- Remove this notice or replace it with whatever you want -->
-      &#169; Copyright 2010 Your Company | Powered by <a href="http://www.865171.cn">admin templates</a> | <a href="#">Top</a> </small> </div>
+      &#169; Copyright 2015 qzw | Powered by <a href="http://www.qizuang.com">szy</a> | <a href="#">Top</a> </small> </div>
     <!-- End #footer -->
   </div>
   <!-- End #main-content -->

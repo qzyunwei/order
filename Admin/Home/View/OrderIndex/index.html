@@ -165,6 +165,7 @@
                 <th>订餐</th>
                 <th>订餐餐厅</th>
                 <th>订餐人</th>
+                <th>订餐数量</th>
                 <th>添加时间</th>
                 <th>订餐价格</th>
                 <th>订餐支付</th>
@@ -178,9 +179,10 @@
               <volist name="order_list" id="vo">
               <tr>
                 <td></td>
-                <td>{$vo.order_meal} </td>
+                <td>{$vo.order_food} </td>
                 <td>{$vo.order_restaurant}</a></td>
                 <td>{$vo.order_name}</td>
+                <td>{$vo.order_num}</td>
                 <td>{$vo.order_time} </td>
                 <td>{$vo.order_price} </td>
                 <td>{$vo.pay_price} </td>
@@ -283,33 +285,29 @@
       <div class="content-box-header">
         <h3>内容框 左</h3>
       </div>
-      End .content-box-header
+
       <div class="content-box-content">
         <div class="tab-content default-tab">
           <h4>测试</h4>
           <p> 备用 </p>
         </div>
-        End #tab3
       </div>
-      End .content-box-content
     </div>
-    End .content-box
+
     <div class="content-box column-right closed-box">
       <div class="content-box-header">
-        Add the class "closed" to the Content box header to have it closed by default
         <h3>内容框 右</h3>
       </div>
-      End .content-box-header
       <div class="content-box-content">
         <div class="tab-content default-tab">
           <h4>哈哈</h4>
           <p> 备用 </p>
         </div>
-        End #tab3
+
       </div>
-      End .content-box-content
+
     </div>
-    End .content-box
+
     <div class="clear"></div>
 
 

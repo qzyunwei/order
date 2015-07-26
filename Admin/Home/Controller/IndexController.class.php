@@ -23,20 +23,26 @@ class IndexController extends Controller {
 
 
         $user = M("User");//参数的User必须首字母大写，否则自动验证功能失效！
-        if ($user->where("username = '$username'AND password = '$password'")->find()) {
+        if ($user->where("username = '$username'AND password = '$password'AND type = 1")->find()) {
             //跳转
             session(username,$username);
             $url=U('/Home/OrderIndex/index/');
             redirect($url,0, '跳转中...');
             /*$this->success('success','/OrderIndex/index/');*/
-        }else{
+        }
+        else if($user->where("username = '$username'AND password = '$password'AND type = 0")->find()){
+            session(username,$username);
+            $url=U('Application/Home/Index/index/');
+            redirect($url,0, '跳转中...');
+        }
+        else{
             $this->error("用户名密码错误！");
         }
 
     }
 
-
-     function check_verify($code, $id = ''){
+    //验证码
+    function check_verify($code, $id = ''){
         $verify = new \Think\Verify();
         return $verify->check($code, $id);
     }

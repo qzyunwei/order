@@ -74,7 +74,7 @@ class OrderIndexController extends Controller {
         $result = $order->getFieldByid($id,'confirm_price');
         //print_r($result);
         if($result == '未支付'){
-            $date['confirm_price'] = '已支付' ;
+            $date['confirm_price']  = '已支付' ;
         }else{
             $date['confirm_price'] = '未支付' ;
         }
