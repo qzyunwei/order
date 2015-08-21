@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$title}</title>
+
+
+<link rel="stylesheet" href="__PUBLIC__/Css/admin/reset.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__PUBLIC__/Css/admin/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="__PUBLIC__/Css/admin/invalid.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="__PUBLIC__/Js/admin/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/admin/simpla.jquery.configuration.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/admin/facebox.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Js/admin/jquery.wysiwyg.js"></script>
+
+
+</head>
+
+<body>
+<!-- <include file = "Public/header"/> -->
+  <!-- End #sidebar -->
+    <div class="menu">
+          <ul>
+            <li>首页</li>
+            <li>></li>
+            <li>餐厅菜单</li>
+            <li>></li>
+            <li>添加餐厅</li>
+          </ul>
+    </div>
+
+    <div id="main-content">
+
+      <noscript>
+      <!-- Show a notification if the user has disabled javascript -->
+          <div class="notification error png_bg">
+              <div> Javascript is disabled or is not supported by your browser. Please <a href="http://browsehappy.com/" title="Upgrade to a better browser">upgrade</a> your browser or <a href="http://www.google.com/support/bin/answer.py?answer=23852" title="Enable Javascript in your browser">enable</a> Javascript to navigate the interface properly.
+              Download From
+              </div>
+          </div>
+      </noscript>
+
+
+
+      <div class="content-box">
+        <!-- Start Content Box -->
+        <div class="content-box-header">
+          <h3></h3>
+        </div>
+
+        <div class="content-box-content">
+
+            <!-- This is the target div. id must match the href of this div's tab -->
+            <form action="save_shop" method="POST" accept-charset="utf-8" id="order">
+              <fieldset>
+                  <div class="controls">
+                    <div class="control-group">
+                      <label class="control-label" for="focusedInput">餐馆名称：</label>
+                      <div class="controls">
+                        <input class="text-input" name="shopname" id="focusedInput" type="text" value="{$edit_order.shopname}">
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">起送金额：</label>
+                      <div class="controls">
+                        <input class="text-input"  name="start_price" type="text" value="{$edit_order.start_price}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"><span class="add-on">元</span>
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">联系方式：</label>
+                      <div class="controls">
+                        <input class="text-input" name="phone" type="text" value="{$edit_order.phone}" onkeyup="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <label class="control-label">餐厅地址：</label>
+                      <div class="controls">
+                        <input class="text-input" name="address" type="text" value="{$edit_order.address}">
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">营业时间：</label>
+                      <div class="controls">
+                        <input class="text-input" name="business_hours" type="text" value="{$edit_order.business_hours}">
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <label class="control-label">备注与说明：</label>
+                      <div class="controls">
+                        <input class="text-input" name="info" type="text" value="{$edit_order.info}">
+                      </div>
+                    </div>
+
+                    <div class="control-group">
+                      <button type="submit" class="button control-group">{$act}</button>
+                      <a href="__APP__/Home/Menu/index"><button type="button" class="button control-group" >取消</button></a>
+                    </div>
+                  </div>
+              </fieldset>
+              <!--  -->
+            </form>
+          <!-- End #tab1-->
+        </div>
+        <!-- End .content-box-content -->
+      </div>
+      <!-- End .content-box -->
+      <include file = 'Public/Footer'/>
+    </div>
+</body>
+<!-- Download From www.exet.tk-->
+</html>

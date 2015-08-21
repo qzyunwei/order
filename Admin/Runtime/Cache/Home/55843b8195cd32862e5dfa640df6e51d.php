@@ -41,27 +41,31 @@
     <div id="login-content">
         <form action="/order/admin.php/Home/Index/login" method="POST">
 
-            <p>
+            <div>
                 <label>用户名</label>
                 <input class="text-input" type="text"  name="username"/>
-            </p>
+                <a href="/order/admin.php/Home/index/add" style=" margin:10px">注册账号</a>
+            </div>
 
             <div class="clear"></div>
 
-            <p>
+            <div>
                 <label>密码</label>
                 <input class="text-input" type="password" name="password"/>
-            </p>
+                <!-- <a href="/order/admin.php/" style=" margin:10px">忘了密码?</a> -->
+            </div>
 
             <div class="clear"></div>
 
-            <p>
+            <div>
                 <label>验证码</label>
                 <input class="text-input" type="text" name="verify_code"/>
-                <img src="/order/admin.php/Home/Common/verify"/ onclick="show(this)">
-            </p>
 
-            <div class="clear"></div>
+            </div>
+
+            <div style="margin-left:100px">
+                <img src="/order/admin.php/Home/Common/verify" onclick="show(this)">
+            </div>
 
 
             <!-- <p id="remember-password">
@@ -69,11 +73,11 @@
                           记住我
                       </p> -->
 
-            <div class="clear"></div>
+            <div>
+                <input class="button" style="margin:20px 0px 0px 50px; width:80px" type="submit" value="登录" />
+                <input class="button" style="margin:20px 0px 0px 50px; width:80px" type="reset" value="取消" />
+            </div>
 
-            <p>
-                <input class="button" type="submit" value="登录" />
-            </p>
         </form>
   </div>
 

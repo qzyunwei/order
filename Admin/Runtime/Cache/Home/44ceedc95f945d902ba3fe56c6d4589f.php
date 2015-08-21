@@ -55,7 +55,7 @@
           <ul>
             <li>首页</li>
             <li>></li>
-            <li>订餐详情</li>
+            <li>我的订单</li>
           </ul>
   </div>
 
@@ -70,32 +70,13 @@
         </div>
     </noscript>
 
-
-
-      <!-- <ul class="shortcut-buttons-set">
-        <li>
-          <a class="shortcut-button" href="/order/admin.php/Home/OrderIndex/delete_all">
-              <span>
-                  <img src="/order/Public/Images/admin/icons/pencil_48.png" alt="icon" /><br />
-                  清除全部订单
-              </span>
-          </a>
-        </li>
-      </ul>
-       -->
-
-
-    <div class="clear"></div>
-
-
-
     <div class="content-box">
 
       <!-- Start Content Box -->
       <div class="content-box-header">
         <h3></h3>
         <ul class="content-box-tabs">
-          <li><a href="#tab1" class="default-tab">订餐列表(共<?php echo ($news_count); ?>人)</a></li>
+          <li><a href="#tab1" class="default-tab">我的记录(共<?php echo ($news_count); ?>条)</a></li>
           <!-- href must be unique and match the id of target div -->
           <!-- <li><a href="#tab2">登录记录</a></li> -->
         </ul>
@@ -106,7 +87,7 @@
         <div class="tab-content default-tab" id="tab1">
           <!-- This is the target div. id must match the href of this div's tab -->
           <div class="notification attention png_bg"> <a href="#" class="close"><img src="/order/Public/Images/admin/icons/cross_grey_small.png" title="Close this notification" alt="close" /></a>
-            <div>您好，<?php echo ($username); ?>，下面是订餐信息！ </div>
+            <div>您好，<?php echo ($username); ?>，下面是您的历史订餐记录！ </div>
           </div>
 
           <!-- 表头 -->
@@ -116,14 +97,13 @@
 
                 <th >订餐</th>
                 <th>餐厅</th>
-                <th>订餐人</th>
                 <th>数量</th>
                 <th>订餐时间</th>
                 <th>价格</th>
                 <th>备注</th>
                 <th>订餐支付</th>
                 <th>支付确认</th>
-                <th>操作</th>
+
               </tr>
             </thead>
 
@@ -133,19 +113,13 @@
 
                 <td><?php echo ($vo["order_food"]); ?> </td>
                 <td><?php echo ($vo["order_res"]); ?></td>
-                <td><?php echo ($vo["order_name"]); ?></td>
                 <td><?php echo ($vo["order_num"]); ?></td>
                 <td><?php echo (date('m/d H:i',$vo["order_time"])); ?> </td>
                 <td><?php echo ($vo["order_price"]); ?> </td>
-                <th><?php echo ($vo["order_other"]); ?></th>
+                <td><?php echo ($vo["order_other"]); ?> </td>
                 <td><?php echo ($vo["pay_price"]); ?> </td>
                 <td><?php echo ($vo["confirm_price"]); ?> </td>
-                <td>
-                  <!-- 操作按钮 -->
-                  <a href="/order/admin.php/Home/OrderIndex/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><img src="/order/Public/Images/admin/icons/pencil.png" alt="编辑" /></a>
-                  <a href="/order/admin.php/Home/OrderIndex/delete/id/<?php echo ($vo["id"]); ?>" title="删除"><img src="/order/Public/Images/admin/icons/cross.png" alt="删除" /></a>
 
-                </td>
               </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </tbody>
 
@@ -172,93 +146,10 @@
             </tfoot>
           </table>
         </div>
-
-
-
-        <!-- End #tab1 -->
-        <!-- <div class="tab-content" id="tab2">
-          <form action="#" method="post">
-            <fieldset>
-            Set class to "column-left" or "column-right" on fieldsets to divide the form into columns
-            <p>
-              <label>Small form input</label>
-              <input class="text-input small-input" type="text" id="small-input" name="small-input" />
-              <span class="input-notification success png_bg">Successful message</span>
-              Classes for input-notification: success, error, information, attention
-              <br />
-              <small>A small description of the field</small> </p>
-            <p>
-              <label>Medium form input</label>
-              <input class="text-input medium-input datepicker" type="text" id="medium-input" name="medium-input" />
-              <span class="input-notification error png_bg">Error message</span> </p>
-            <p>
-              <label>Large form input</label>
-              <input class="text-input large-input" type="text" id="large-input" name="large-input" />
-            </p>
-            <p>
-              <label>Checkboxes</label>
-              <input type="checkbox" name="checkbox1" />
-              This is a checkbox
-              <input type="checkbox" name="checkbox2" />
-              And this is another checkbox </p>
-            <p>
-              <label>Radio buttons</label>
-              <input type="radio" name="radio1" />
-              This is a radio button<br />
-              <input type="radio" name="radio2" />
-              This is another radio button </p>
-            <p>
-              <label>This is a drop down list</label>
-              <select name="dropdown" class="small-input">
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-                <option value="option3">Option 3</option>
-                <option value="option4">Option 4</option>
-              </select>
-            </p>
-            <p>
-              <label>Textarea with WYSIWYG</label>
-              <textarea class="text-input textarea wysiwyg" id="textarea" name="textfield" cols="79" rows="15"></textarea>
-            </p>
-            <p>
-              <input class="button" type="submit" value="Submit" />
-            </p>
-            </fieldset>
-            <div class="clear"></div>
-            End .clear
-          </form>
-        </div> -->
-        <!-- End #tab2 -->
       </div>
       <!-- End .content-box-content -->
     </div>
     <!-- End .content-box -->
-    <!-- <div class="content-box column-left">
-      <div class="content-box-header">
-        <h3>内容框 左</h3>
-      </div>
-
-      <div class="content-box-content">
-        <div class="tab-content default-tab">
-          <h4>测试</h4>
-          <p> 备用 </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-box column-right closed-box">
-      <div class="content-box-header">
-        <h3>内容框 右</h3>
-      </div>
-      <div class="content-box-content">
-        <div class="tab-content default-tab">
-          <h4>哈哈</h4>
-          <p> 备用 </p>
-        </div>
-
-      </div>
-
-    </div> -->
 
     <div class="clear"></div>
 

@@ -196,7 +196,7 @@ body {
                 text-align: right;
                 }
 
-#sidebar #main-nav li a.nav-top-item {
+#sidebar #main-nav li span.nav-top-item {
                 background: transparent url('../../Images/admin/bg-menu-item-blue.gif') right center no-repeat; /* Background image for default color scheme - green */
                 padding: 10px 15px;
                 color: #fff;

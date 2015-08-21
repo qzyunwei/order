@@ -1,0 +1,729 @@
+[ 2015-08-12T13:47:20+08:00 ] 127.0.0.1 /order/admin.php/Home/menu/addshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 42 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 104 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 111 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 118 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 125 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 131 行.
+NOTIC: [8] Undefined variable: v D:\wamp\www\order\Admin\Runtime\Cache\Home\a8ab4b65c47a9fcd2443a97375ec79c8.php 第 137 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T13:47:29+08:00 ] 127.0.0.1 /order/admin.php/Home/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T13:47:32+08:00 ] 127.0.0.1 /order/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T13:47:32+08:00 ] 127.0.0.1 /order/admin.php/Home/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2015-08-12T13:47:39+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = 'q'AND password = 'b2ca678b4c936f905fb82f2733f5297f' ) LIMIT 1   [ RunTime:0.0050s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\order\Admin\Home\Controller\IndexController.class.php 第 36 行.
+
+[ 2015-08-12T13:47:39+08:00 ] 127.0.0.1 /order/admin.php/Home/OrderIndex/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_order`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T13:47:46+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T13:47:54+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T13:48:00+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T13:48:02+08:00 ] 127.0.0.1 /order/admin.php/Home/Common/verify/random/0.7451615487225354
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T13:48:06+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = 'q'AND password = 'b2ca678b4c936f905fb82f2733f5297f' ) LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\order\Admin\Home\Controller\IndexController.class.php 第 36 行.
+
+[ 2015-08-12T13:48:07+08:00 ] 127.0.0.1 /order/admin.php/Home/OrderIndex/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_order`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T13:48:11+08:00 ] 127.0.0.1 /order/admin.php/Home/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0080s ]
+SQL: select * from think_shop [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\58a35cd935bd1d4f2e2f238bb2ac8170.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\58a35cd935bd1d4f2e2f238bb2ac8170.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T13:48:18+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/del_shop/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0080s ]
+SQL: DELETE FROM `think_shop` WHERE ( id=6 ) [ RunTime:0.0170s ]
+
+[ 2015-08-12T13:48:18+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0060s ]
+SQL: select * from think_shop [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T13:48:22+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0030s ]
+SQL: select * from think_shop [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T14:06:42+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0080s ]
+SQL: select * from think_shop [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2015-08-12T14:06:44+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =5 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for dump(), called in D:\wamp\www\order\Admin\Home\Controller\MenuController.class.php on line 78 and defined D:\wamp\www\order\ThinkPHP\Common\functions.php 第 831 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\order\ThinkPHP\Common\functions.php 第 842 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T14:12:01+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =5 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-08-12T14:15:30+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0010s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0040s ]
+SQL: select * from think_shop [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\9f3bec6c969fbde086094484fa8d51d2.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2015-08-12T14:15:31+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =5 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined index: food_name D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 104 行.
+NOTIC: [8] Undefined index: food_price D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T14:17:12+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.1130s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =5 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:16:42+08:00 ] 127.0.0.1 /order/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T17:16:43+08:00 ] 127.0.0.1 /order/admin.php/Home/Common/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:16:50+08:00 ] 127.0.0.1 /order/admin.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.2260s ]
+SQL: SELECT * FROM `think_user` WHERE ( username = 'q'AND password = 'b2ca678b4c936f905fb82f2733f5297f' ) LIMIT 1   [ RunTime:0.0300s ]
+NOTIC: [8] Use of undefined constant username - assumed 'username' D:\wamp\www\order\Admin\Home\Controller\IndexController.class.php 第 36 行.
+
+[ 2015-08-12T17:16:51+08:00 ] 127.0.0.1 /order/admin.php/Home/OrderIndex/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_order` [ RunTime:0.0300s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_order` LIMIT 1   [ RunTime:0.0380s ]
+SQL: SELECT * FROM `think_order`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+NOTIC: [8] Use of undefined constant order_time - assumed 'order_time' D:\wamp\www\order\Admin\Home\Controller\OrderIndexController.class.php 第 50 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2015-08-12T17:16:56+08:00 ] 127.0.0.1 /order/admin.php/Home/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_menu` LIMIT 1   [ RunTime:0.0320s ]
+SQL: select think_menu.id,think_menu.food_name,think_menu.food_price,think_shop.shopname from think_menu inner join think_shop on think_menu.shop_id = think_shop.id [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0100s ]
+SQL: select * from think_shop [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\58a35cd935bd1d4f2e2f238bb2ac8170.php 第 123 行.
+NOTIC: [8] Undefined variable: page_method D:\wamp\www\order\Admin\Runtime\Cache\Home\58a35cd935bd1d4f2e2f238bb2ac8170.php 第 255 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:16:59+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =12 )  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:18:15+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =12 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined index: food_name D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 104 行.
+NOTIC: [8] Undefined index: food_price D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:18:17+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =12 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined index: food_name D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 104 行.
+NOTIC: [8] Undefined index: food_price D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:03+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =12 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined index: food_name D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 104 行.
+NOTIC: [8] Undefined index: food_price D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:15+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/edit_menu/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `think_menu` WHERE ( id =12 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined index: food_name D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 104 行.
+NOTIC: [8] Undefined index: food_price D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T17:19:55+08:00 ] 127.0.0.1 /order/admin.php/Home/Menu/addmenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\order\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: title D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 5 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: username D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 42 行.
+NOTIC: [8] Undefined variable: edit_order D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 111 行.
+NOTIC: [8] Undefined variable: show_d D:\wamp\www\order\Admin\Runtime\Cache\Home\195035bc2d1d125bb11aafa65c611f24.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

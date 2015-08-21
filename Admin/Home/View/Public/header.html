@@ -1,0 +1,31 @@
+<div id="body-wrapper">
+
+  <div id="sidebar">
+    <div id="sidebar-wrapper">
+
+        <h1 id="sidebar-title"><a href="#">Order Admin</a></h1>
+        <h2 style = " color:white; margin-left: 20px; margin-top: 20px; margin-bottom: 20px " >齐装订餐系统</h2>
+
+
+        <div id="profile-links">
+            您好,<a href="#" title="当前用户:{$username}">{$username}</a> |
+            <a href="__APP__/Home/Public/quit" title="退出">退出</a>
+        </div>
+
+        <ul id="main-nav">
+            <!-- 类型为nav-top-itrm current 表示选中时的样式
+                       nav-top-item 表示没有选中的样式-->
+            <li> <a  href="__APP__/Home/AdminOrder/index" ><span class="nav-top-item current">我的订单 My Order</span></a></li>
+            <div style="margin-bottom:7px">会员操作</div>
+            <li> <a  href="__APP__/Home/StartOrder/index"><span class="nav-top-item">开始订餐</span></a></li>
+            <li><a  href="__APP__/Home/ChangeAdmin/index" ><span class="nav-top-item">修改信息 Change Info</span></a></li>
+            <div style="margin-bottom:7px">管理</div>
+            <li><a href="__APP__/Home/OrderIndex/index"><span class="nav-top-item">订餐详情</span> </a></li>
+            <li><a href="#"><span class="nav-top-item">订餐核对</span> </a></li>
+            <li> <a href="__APP__/Home/menu/index" ><span class="nav-top-item">餐厅菜单</span></a></li>
+            <li> <a href="__APP__/Home/member/index" ><span class="nav-top-item">会员管理</span></a></li>
+         </ul>
+
+    </div>
+  </div>
+  <!-- End #sidebar -->

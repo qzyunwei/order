@@ -1,7 +1,7 @@
 <?php
     namespace Home\Controller;
     use Think\Controller;
-class OrderIndexController extends Controller {
+class AdminOrderController extends Controller {
     public function index(){
         header("Content-Type:text/html; charset=utf-8");
 
@@ -12,13 +12,14 @@ class OrderIndexController extends Controller {
 
             //实例化订餐模型
             $order=M('order');
-            $count=$order->count();
-
-            //分页显示列表，每页8文章
+           //分页显示列表，每页8文章
             $Page       = new \Think\Page($count,25);//后台管理页面默认一页显示8条文章记录
             $show       = $Page->show();// 分页显示输出
 
-            $order_list = $order->select();
+            $name = session('username');
+            //查询 order_name = 登录名的 订单详情，并按照order_time排序，desc采用降序的方式
+            $order_list = $order->where("order_name ='$name' ")->order("order_time desc")->select();
+            $count=$order->where("order_name ='$name' ")->count();
             //$list = $User->order('order_time')->limit($Page->firstRow.','.$Page->listRows)->select();
             $this->assign('list',$list);// 赋值数据集
             $this->assign('page',$show);// 赋值分页输出
@@ -65,52 +66,24 @@ class OrderIndexController extends Controller {
         }
     }
 
-    /**
-     * @函数  edit
-     * @功能  编辑-确认支付
-     */
-    public function edit($id)
-    {
+
+    public function edit($id){
         $order = M('order');
 
-        $result = $order->getFieldByid($id,'confirm_price');
+        $result = $order->getFieldByid($id,'pay_price');
         //print_r($result);
         if($result == '未支付'){
-            $date['confirm_price']  = '已支付' ;
+            $date['pay_price']  = '已支付' ;
         }else{
-            $date['confirm_price'] = '未支付' ;
+            $date['pay_price'] = '未支付' ;
         }
         //print_r($date['confirm_price']);
         $order->where('id = '.$id)->save($date);
-        redirect(U('/Home/OrderIndex/Index'),0);
-    }
-    /**
-     * @函数  delete
-     * @功能  删除指定id信息
-     */
-    public function delete($id){
-        header("Content-Type:text/html; charset=utf-8");
-        $Del = M("order");
-        $result = $Del->where('id='.$id)->delete();
-        if ($result !== false){
-            //redirect(U('/Home/OrderIndex/Index'),5,'订单信息删除失败，请重新删除。。。');
-            redirect(U('/Home/OrderIndex/Index'),0);
-        }else{
-            redirect(U('/Home/OrderIndex/Index'),3,'订单信息删除失败，请重新删除。。。');
-        }
+        redirect(U('/Home/AdminOrder/Index'),0);
     }
 
-    /**
-     * @函数  delete_all
-     * @功能  删除所有订餐信息
-     */
-    public function delete_all(){
-        $Del = M("order");
-        $result = $Del->where('1')->delete();
-        if ($result !== false){
-            redirect(U('/Home/OrderIndex/Index'),0);
-        }else{
-            redirect(U('/Home/OrderIndex/Index'),3,'全部订单信息删除失败，请重新删除。。。');
-        }
+    private function delete($id){
+        delete($id);
     }
+
 }

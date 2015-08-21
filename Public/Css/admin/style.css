@@ -18,7 +18,7 @@ body {
                 background: url('../../Images/admin/bg-radial-gradient.gif') fixed 230px top no-repeat;
                 }                
 
-/********************************      Elements styling      ********************************/
+/********************************      cs styling      ********************************/
 
 h1, h2, h3, h4, h5, h6 {
                 font-family: Helvetica, Arial, sans-serif;
@@ -150,7 +150,7 @@ a.remove-link:hover {
                 text-align: right;
                 }
 
-#sidebar #main-nav li a.nav-top-item {
+#sidebar #main-nav li span.nav-top-item {
                 background: transparent url('../../Images/admin/bg-menu-item-green.gif') right center no-repeat; /* Background image for default color scheme - green */
                 padding: 10px 15px;
                 color: #fff;
@@ -160,7 +160,7 @@ a.remove-link:hover {
                 text-decoration: none;
                 }
 
-#sidebar #main-nav li a.current {
+#sidebar #main-nav li span.current {
                 background-image: url('../../Images/admin/bg-menu-item-current.gif') !important;
                 color: #333;
                 font-weight: bold;
@@ -227,7 +227,7 @@ a.remove-link:hover {
 
 #main-content {
                 margin: 0 30px 0 260px;
-                padding: 40px 0 0 0;
+                
                 }
 
 .column-left {
@@ -405,16 +405,16 @@ ul.content-box-tabs li a.current {
 
 .shortcut-button {
                 border: 1px solid #ccc;
-                background: #f7f7f7 url('../../Images/admin/shortcut-button-bg.gif') top left no-repeat;
+                background: #f7f7f7 url('../../Images/admin/shortcut-button-bg.gif');
                 display: block;
-                width: 120px;
+                width: 80px;
                 margin: 0 0 20px 0;
                 }
 
 .shortcut-button span {
                 border: 1px solid #fff;
                 display:block;
-                padding: 15px 10px 15px 10px;
+                padding: 5px 10px 5px 10px;
                 text-align: center;
                 color: #555;
                 font-size: 13px;
@@ -422,7 +422,7 @@ ul.content-box-tabs li a.current {
                 }
 
 .shortcut-button span img {
-                margin-bottom: 10px;
+                margin-bottom: 0px;
                 }
 
 .shortcut-button:hover {
@@ -580,6 +580,11 @@ body#login {
                 color: #fff;
                 background: #222 url('../../Images/admin/bg-login.gif');
 				}
+body#add{
+				
+                background: #222 url('../../Images/admin/bg-login.gif');
+				}
+}
 				
 #login-wrapper {
                 background: url('../../Images/admin/bg-login-top.png') top left repeat-x;
@@ -593,7 +598,7 @@ body#login {
 				
 #login-wrapper #login-content {
 				text-align: left;
-				width: 300px;
+				width: 410px;
 				margin: 0 auto;
 				}
 				
@@ -609,7 +614,6 @@ body#login {
 				
 #login-wrapper #login-content input {
 				width: 200px;
-				float: right;
 				margin: 0 0 20px 0;
 				border: 0;
 				background: #fff;
@@ -789,3 +793,63 @@ div.wysiwyg ul.panel li a.removeFormat { background-position: -80px -64px; }
 div.wysiwyg ul.panel li a.empty { background-position: -64px -80px; }
 
 div.wysiwyg iframe { border: 0; margin: 5px 0 0 0; clear: left; width: 97.5% !important; }
+
+
+
+/*************** szy WYSIWYG ***************/
+div.menu
+{
+	background:#DDD;
+	padding:10px;
+	margin:0px 0px 20px 230px;
+}
+
+div.menu ul
+{
+	
+    list-style:none; /* 去掉ul前面的符号 */
+    margin: 3px 0px 20px 0px; /* 与外界元素的距离为0 */
+    padding: 0px; /* 与内部元素的距离为0 */
+    width: auto; /* 宽度根据元素内容调整 */
+}
+
+div.menu ul li
+{
+    float:left; /* 向左漂移，将竖排变为横排 */
+	font-size:14px;
+	color:#999;
+	margin-left:8px;
+}
+
+/*************** Start_order WYSIWYG ***************/
+.control-group
+{
+	margin:10px 0px 10px 100px;
+}
+.control-label
+{
+	float: left;
+	width: 160px;
+	font-size:12px;
+	padding-top: 8px;
+	text-align: right;
+}
+.controls
+{
+	margin:10px 40px 10px 180px;
+	width:500px;
+}
+
+.add-on
+{
+	margin-left:10px;	
+}
+.cleditor
+{
+	width:150px;
+	row:5;
+}
+.form-actions
+{
+	margin:10px 0px 0px 280px;
+}
