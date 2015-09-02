@@ -3,6 +3,8 @@
     use Think\Controller;
 class IndexController extends Controller {
     public function index(){
+
+
         $this->assign('title','后台管理系统');
         $this->display();
         //echo "admin";
@@ -12,9 +14,8 @@ class IndexController extends Controller {
     public function login(){
         header("Content-Type:text/html; charset=utf-8");
         //检查验证码是否正确
-        if(!$this->check_verify($_POST["verify_code"])){
-            $this->error("验证码错误！");
-        }
+        $this->checkverify($_POST["verify_code"]);
+
 
         //验证用户名
         $username = $_POST["username"];//  获取页面输入的用户名，密码
@@ -45,10 +46,63 @@ class IndexController extends Controller {
 
     }
 
+    function adduser(){
+
+        if(IS_POST){
+            $d = I('POST.');
+            dump($d);
+        }else{
+            $this->display("add");
+        }
+    }
+
+
+
     //验证码
     function check_verify($code, $id = ''){
         $verify = new \Think\Verify();
         return $verify->check($code, $id);
+    }
+    //验证注册时
+    function verifyuser(){
+
+
+        $add_user = $_POST['user'];
+
+        $user = M('user');
+        $result = $user->where(" username = '$add_user' ")->find();
+        //echo "<script>alert('$result');</script>";
+        if(!empty($result)){
+            //$rt = '<label style="margin:2px 230px 0px 0px;"><font color="red">用户名存在！</font></label>';
+            $rt = "1";
+        }else{
+            //$rt = '<img src="/order/public/Images/admin/icons/tick_circle.png" alt="" style="margin:4px 290px 0px 0px;">';
+            $rt = "2";
+        }
+        exit($rt);
+
+    }
+    function addcheckverify(){
+        $qqq = $_SESSION;
+        if($this->check_verify($_POST["ver"])){
+            $rt = "1";
+            //$rt = '<img src="/order/public/Images/admin/icons/tick_circle.png" alt="" style="margin:4px 290px 0px 0px;">';
+        }else{
+            $rt = "2";
+            //$rt = '<label style="margin:2px 230px 0px 0px;"><font color="red">验证码错误！</font></label>';
+        }
+        exit($rt);
+    }
+
+
+    function checkverify($ver){
+        if(!$this->check_verify($ver)){
+            $this->error("验证码错误！");
+        }
+    }
+
+    function save_user(){
+
     }
 
 }

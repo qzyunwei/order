@@ -33,8 +33,9 @@
 
     <div id="login-top">
         <h1><?php echo ($title); ?></h1>
+        <p class="logo">齐装网订餐系统</p>
         <!-- Logo (221px width) -->
-        <img id="logo" src="/order/Public/Images/admin/logo.png" alt="<?php echo ($title); ?>" />
+        <!-- <img id="logo" src="/order/Public/Images/admin/logo.png" alt="<?php echo ($title); ?>" /> -->
     </div>
 
     <!-- Form表单 -->
@@ -44,7 +45,7 @@
             <div>
                 <label>用户名</label>
                 <input class="text-input" type="text"  name="username"/>
-                <a href="/order/admin.php/Home/index/add" style=" margin:10px">注册账号</a>
+                <a href="/order/admin.php/Home/Index/adduser" style=" margin:10px">注册账号</a>
             </div>
 
             <div class="clear"></div>
@@ -63,7 +64,7 @@
 
             </div>
 
-            <div style="margin-left:100px">
+            <div style="margin-left:70px">
                 <img src="/order/admin.php/Home/Common/verify" onclick="show(this)">
             </div>
 

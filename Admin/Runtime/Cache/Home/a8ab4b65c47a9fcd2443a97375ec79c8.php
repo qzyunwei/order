@@ -43,7 +43,7 @@
             <li><a href="/order/admin.php/Home/OrderIndex/index"><span class="nav-top-item">订餐详情</span> </a></li>
             <li><a href="#"><span class="nav-top-item">订餐核对</span> </a></li>
             <li> <a href="/order/admin.php/Home/menu/index" ><span class="nav-top-item">餐厅菜单</span></a></li>
-            <li> <a href="#" ><span class="nav-top-item">会员管理</span></a></li>
+            <li> <a href="/order/admin.php/Home/member/index" ><span class="nav-top-item">会员管理</span></a></li>
          </ul>
 
     </div>

@@ -11,7 +11,6 @@ class StartOrderController extends Controller {
         $shopData = M('shop');
         $shop = $shopData->order('order_id DESC ')->select();
 
-
         $this->assign('shop',$shop);
         $this->assign('title','齐装订餐系统');
         $this->display();
@@ -29,8 +28,6 @@ class StartOrderController extends Controller {
         if($d['menu_id'] == '' || $d['menu_id' == '0']){
             $this->error("请正确订餐",U('/Home/StartOrder/Index'));
         }
-
-
         $menu = M('menu');
 
         $d['order_name'] = session('name');
